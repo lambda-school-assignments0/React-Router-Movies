@@ -1,7 +1,6 @@
 import React from 'react';
 
 const MovieCard = props => {
-  console.log(props);
   return (
     <div className="movie-card">
       <h2>{props.movie.title}</h2>
